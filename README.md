@@ -1,6 +1,6 @@
-# 🧬 Carp Classification Based on KEGG Metabolic Pathways (DNN)
+# Carp Classification Based on KEGG Metabolic Pathways (DNN)
 
-## 📝 Project Summary
+## Project Summary
 
 This academic project, developed during my **Bioinformatics** studies, focused on the **classification (prediction)** of common carp originating from **five different ponds** that received varying nutritional supplementation. The classification was performed solely using data related to the **activity of KEGG metabolic pathways**.
 
@@ -12,9 +12,9 @@ The primary goal was to leverage a **Deep Neural Network (DNN)** to identify met
 * **Dimensionality Reduction** addressing the $N \ll p$ problem (fewer samples than features).
 * Application of **Permutation Feature Importance (PFI)** for model explainability.
 
----
 
-## 🛠️ Technologies Used
+
+## Technologies Used
 
 The analysis was executed in a **Jupyter Notebook** environment using **Python** and key data science libraries.
 
@@ -29,9 +29,9 @@ The analysis was executed in a **Jupyter Notebook** environment using **Python**
   <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white">
 </p>
 
----
 
-## ⚙️ Analytical Methodology
+
+## Analytical Methodology
 
 ### 1. KEGG Data Preprocessing and Dimensionality Reduction
 * The initial dataset presented the challenge of having a significantly higher number of features than samples ($p \gg N$), requiring a robust preprocessing pipeline.
@@ -49,7 +49,7 @@ The analysis was executed in a **Jupyter Notebook** environment using **Python**
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 This research successfully addressed the complexity of classifying high-dimensional biological data through a necessary and stringent preprocessing pipeline. However, the overall model performance was **moderate** (highest accuracy observed was approximately **0.76**), and the DNN exhibited signs of **overfitting** during training. This suggests that while the model captured complex patterns, its ability to generalize to unseen metabolic profiles was limited, possibly due to the dataset size.
 
